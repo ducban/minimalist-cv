@@ -17,6 +17,13 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        mono: ['"Noto Sans Mono"','SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
+      },
+      fontSize: {
+        'sm': ['0.875rem', { lineHeight: '1.4rem' }],
+        'xs': ['0.75rem', { lineHeight: '1.2rem' }],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
