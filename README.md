@@ -25,6 +25,13 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 - 🎯 **SEO Friendly** - Optimized metadata for better search visibility
 - 🐳 **Docker Support** - Easy containerized deployment
 
+## 💡 Recent Updates
+
+- **New Resume PDFs**: Added pre-generated PDF resumes for different companies.
+- **Font Checker**: Includes a new script to verify font families.
+- **Google Fonts**: Integrated Google Fonts for improved typography.
+- **New Resume Data**: Added new data sets for Menlo and what3words.
+
 ## 🛠️ Tech Stack
 
 - **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
