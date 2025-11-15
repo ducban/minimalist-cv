@@ -6,7 +6,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![pnpm](https://img.shields.io/badge/pnpm-8+-F69220?logo=pnpm)](https://pnpm.io/)
+[![bun](https://img.shields.io/badge/bun-1.0+-000000?logo=bun)](https://bun.sh/)
 [![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -39,15 +39,14 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) (Radix UI)
 - **GraphQL**: [Apollo Server](https://www.apollographql.com/) + [TypeGraphQL](https://typegraphql.com/)
-- **Package Manager**: [pnpm](https://pnpm.io/)
+- **Package Manager**: [bun](https://bun.sh/)
 - **Deployment**: Optimized for [Vercel](https://vercel.com/)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 18+ 
-- pnpm 8+
+- [Bun](https://bun.sh/) 1.0+
 
 ### Installation
 
@@ -61,13 +60,13 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 2. **Install dependencies**
 
    ```bash
-   pnpm install
+   bun install
    ```
 
 3. **Start the development server**
 
    ```bash
-   pnpm dev
+   bun dev
    ```
 
 4. **Open [http://localhost:3000](http://localhost:3000)** in your browser
@@ -79,10 +78,11 @@ A clean and modern web app that renders a minimalist CV/Resume with a print-frie
 ### Available Scripts
 
 ```bash
-pnpm dev          # Start development server
-pnpm build        # Build for production
-pnpm start        # Start production server
-pnpm lint         # Run ESLint
+bun dev          # Start development server
+bun build        # Build for production
+bun start        # Start production server
+bun lint         # Run Biome linting
+bun check:fix    # Run linting and formatting with auto-fix
 ```
 
 ## 📁 Project Structure
